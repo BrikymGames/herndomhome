@@ -388,6 +388,8 @@ section:nth-child(even) { background: var(--white); }
 .trustee-member h3 { font-size: 1.125rem; margin-bottom: 0.25rem; }
 .trustee-member p { font-size: 0.875rem; color: var(--text-muted); }
 
+.staff-grid { margin-inline: auto; }
+
 /* Kids Corner */
 .kids-section {
   background: linear-gradient(135deg, #f0e8ff 0%, #fff5eb 50%, #e8f8f5 100%);
