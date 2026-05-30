@@ -83,7 +83,7 @@ h3 { font-size: 1.375rem; margin-bottom: 0.5rem; }
 }
 
 section { padding: 5rem 0; }
-section:nth-child(even) { background: var(--white); }
+section:nth-child(even):not(.spotlight) { background: var(--white); }
 
 /* Header */
 .site-header {
@@ -476,12 +476,12 @@ section:nth-child(even) { background: var(--white); }
 .kids-activity span { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
 
 /* Object of the Month */
-.spotlight {
+section.spotlight {
   background: var(--burgundy-dark);
   color: var(--white);
   padding: 5rem 0;
 }
-.spotlight--gray {
+section.spotlight.spotlight--gray {
   background: #3d3d3d;
 }
 .spotlight-grid {
